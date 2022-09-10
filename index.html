@@ -1,97 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Formulário</title>
-  </head>
-  <body>
-    <h1>Formulário para se ser um S.A.C</h1>
-    <p>Saboreador Anônimo de Casadas!</p>
 
-    <p>Primeiro precisamos saber oo seu nome <strong>REAL</strong></p>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Formulário</title>
+</head>
 
-    <form action="">
-      <label for="fname">Primeiro Nome:</label><br />
-      <input type="text" id="fname" name="fname" /><br />
-      <label for="lname">Sobrenome:</label><br />
-      <input type="text" id="lname" name="lname" /><br />
-      <input type="submit" value="Enviar" />
-    </form>
+<body>
 
-    <p>
-      Lembrando que essas informações serão cripitografadas para que não possa
-      ativar o alergia de 9mm e .40 dos senhores!
-    </p>
-    <label for="username">Nome do <strong>SABOREADOR</strong></label
-    ><br />
-    <input type="text" id="username" name="username" /><br />
-    <p>Agora precisamos saber seus requisitos para saborear.</p>
-    <form>
-      <input type="checkbox" id="requesitos" name="req1" value="Loira" />
-      <label class="container" for="vehicle1"> Loira</label
-      ><span class="checkmark"></span><br />
-      <input type="checkbox" id="requesitos" name="req2" value="Morena" />
-      <label class="container" for="vehicle1"> Morena</label><br />
-      <input type="checkbox" id="requesitos" name="req3" value="Ruiva" />
-      <label class="container" for="vehicle1"> Ruiva</label
-      ><span class="checkmark"></span><br />
-      <input type="checkbox" id="requesitos" name="req4" value="Maior de 18" />
-      <label class="container" for="vehicle1"> Mingal de aveia</label
-      ><span class="checkmark"></span><br />
-      <input type="checkbox" id="requesitos" name="req5" value="Menor de 18" />
-      <label class="container" for="vehicle1"> Migal de Mucilon</label
-      ><span class="checkmark"></span><br />
-      <input
-        type="checkbox"
-        id="requesitos"
-        name="req6"
-        value="De 80 pra baixo é jogo"
-      />
-      <label class="container" for="vehicle1"> De 80 pra baixo é jogo</label
-      ><span class="checkmark"></span><br />
-      <input
-        type="checkbox"
-        id="requesitos"
-        name="req7"
-        value="Quem perdoa é Deus, eu não!"
-      />
-      <label class="container" for="vehicle1">
-        Quem perdoa é Deus, eu não!</label
-      ><span class="checkmark"></span><br />
-    </form>
-    <p>
-      Lembrando que para todos esse requisitos, o status de
-      <strong>CASADA</strong> está incluido em todos!
-    </p>
+  <form action="">
+    <header>
 
-    <p>
-      Selecione a quanto tempo você está no ramo de saborear pessoa conexa a um
-      relacionamento correlacionada a um casamento:
-    </p>
-    <form>
-      <label>
-        <input type="date" id="birthday" name="birthday" />
-      </label>
-    </form>
+      <h1>Formulário para se ser um S.A.C</h1>
+      <h4>Saboreador Anônimo de Casadas!</h4>
 
-    <p>
-      Agora o senhor deverá escolher a sua foto de sua identidade de
-      <strong>saboreador</strong>
-    </p>
-    <h1>Perfil</h1>
+    </header>
 
-    <p>Lembrando que pode ser uma real ou ficticia!</p>
-    <div class="max-width">
+    <h3>Primeiro precisamos saber os seus dados <strong>REAIS</strong></h3>
+    <section class="personalInfos">
+
+      <label for="fname">Primeiro Nome:</label>
+      <input type="text" id="fname" name="fname" />
+
+      <label for="lname">Sobrenome:</label>
+      <input type="text" id="lname" name="lname" />
+
+
+      <label for="username">Nome de guerra do <strong>SABOREADOR:</strong></label>
+      <input type="text" id="username" name="username" />
+      <p class="attention">
+        Lembrando que essas informações serão criptografadas para que não
+        possa
+        ativar o alergia de 9mm e .40 dos senhores!
+      </p>
+    </section>
+
+    <section class="preferences">
+
+
+      <h3>Agora precisamos saber seus requisitos para saborear:</h3>
+      <ul>
+        <li>
+          <input type="checkbox" id="requesitos" name="req1" value="Loira" />
+          <label class="container" for="vehicle1">Loira</label>
+        </li>
+        <li>
+          <input type="checkbox" id="requesitos" name="req2" value="Morena" />
+          <label class="container" for="vehicle1">Morena</label>
+        </li>
+        <li>
+          <input type="checkbox" id="requesitos" name="req3" value="Ruiva" />
+          <label class="container" for="vehicle1">Ruiva</label>
+        </li>
+        <li>
+          <input type="checkbox" id="requesitos" name="req4" value="Maior de 18" />
+          <label class="container" for="vehicle1">Mingal de aveia</label>
+        </li>
+        <li>
+          <input type="checkbox" id="requesitos" name="req5" value="Menor de 18" />
+          <label class="container" for="vehicle1">Migal de Mucilon</label>
+        </li>
+        <li>
+          <input type="checkbox" id="requesitos" name="req6" value="De 80 pra baixo é jogo" />
+          <label class="container" for="vehicle1">De 80 pra baixo é jogo</label>
+        </li>
+        <li>
+          <input type="checkbox" id="requesitos" name="req7" value="Quem perdoa é Deus, eu não!" />
+          <label class="container" for="vehicle1">Quem perdoa é Deus, eu não!
+          </label>
+        </li>
+      </ul>
+
+      <p class="attention">
+        Lembrando que para todos esse requisitos, o status de
+        <strong>CASADA</strong> está incluido em todos!
+      </p>
+    </section>
+
+    <section class="experienceTime">
+      <h3>
+        Selecione a quanto tempo você está no ramo de saborear pessoa conexa a
+        um
+        relacionamento correlacionada a um casamento:
+      </h3>
+
+      <input type="date" id="birthday" name="birthday" />
+    </section>
+
+    <section class="perfil">
+
+      <h2>Perfil</h2>
+
+      <div>
+        <h3>
+          Agora o senhor deverá escolher a sua foto de sua identidade de
+          saboreador
+        </h3>
+
+        <p class="attention">Lembrando que pode ser uma real ou ficticia!</p>
+      </div>
+
       <div class="imageContainer">
         <img src="camera.png" alt="Selecione uma imagem" id="imgPhoto" />
       </div>
-    </div>
 
-    <input type="file" id="flImage" name="fImage" accept="image/*" />
+      <input type="file" id="flImage" name="fImage" accept="image/*" />
 
-    <script src="script.js"></script>
-  </body>
+      <input type="submit" value="Enviar" />
+
+    </section>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+
 </html>
